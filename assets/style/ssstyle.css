@@ -1,0 +1,986 @@
+* {
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* DEBUT DE LA PAGE  */
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    height: 7vh;
+}
+.topUn{
+    margin-left: 40px;
+    color: white;
+}
+.topDeux{
+    margin-right: 40px;
+    color: white;
+}
+#motJaune {
+    color: yellow;
+    font-weight: 700;
+}
+.flexHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+#imgHeader img{
+    width: 300px;
+    height: 100px;
+}
+/* FIN DU DEBUT DE LA PAGE  */
+
+/* DEBUT NAV  */
+#menuNav {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 110px; */
+    z-index: 20;
+}
+
+.nav{
+    background-color: #333333;
+    
+}
+
+.nav a {
+    color: white;
+    font-size:x-large;
+    font-weight: 700;
+}
+/* .partMenu a{
+    height:100%;
+} */
+.flexNav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.barreNav{
+    background-color: #333333;
+    
+}
+.petitMotNav{
+    text-align: left;
+    font-size: small;
+    font-weight: 400;
+}
+.nav-item  #fabriqueSpe .nav-item  {
+    padding: 10vh;
+    background-color: #efb74f;
+    width: 100%;
+    height: 100%;
+}
+
+#fabriqueSpe a {
+    color: black;
+}
+.tardLol{
+    display: flex;
+    flex-direction: column;
+    
+}
+.tardLol #tard {
+    align-items: center;
+}
+
+.imgheader {
+    background-image: url("../images/mainGauche.webp");
+    background-position: bottom;
+    color: white;
+  }
+
+  .imgheadertxt {
+    padding: 70px;
+  }
+
+  .imgheadertxt span {
+    font-size: 8vh;
+  }
+
+  .imgheadertxt button{
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: none;
+  }
+  #barre {
+    font-family: 'Dancing Script';
+    border-style: none;
+    font-size: xx-large;
+    color: grey;
+    margin-left: 5px;
+   
+}
+.form-control{
+    padding: 0rem;
+    
+}
+
+
+.d-flex {
+    border: black solid 3px;
+    
+}
+
+#tailleloupe {
+    display: flex;
+    justify-content:center ;
+    width: 8%;
+    height: 8%;
+    margin-top: 5px;
+    margin-right: 7px;
+   
+} 
+
+/* FIN NAV  */
+
+/* PARTIE AVEC MODULE INSTA  */
+
+.nosDerniereRea {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.nosDerniereReaBis {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.partieDroiteRea {
+    background-color: #333333;
+    background-color: #f4f5f5;
+    width: 55%;
+    padding: 3vh;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 1.44vw;
+    
+}
+.texteDessousModuleBis {
+    background-color: #f4f5f5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 6vh;
+    font-size: x-large;
+}
+.partieDroiteReaBis {
+    padding: 3vh;
+    margin-top: 40px;
+}
+.deuxPhotos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.photoUnite img {
+    width: 300px;
+    height: 300px;
+}
+.partieGaucheRea {
+    width: 35%;
+    margin-left: 10vh;
+    
+}
+
+.partieGaucheRea h3{
+    margin-top: 100px;
+}
+
+.partieGaucheReabis{
+    width: 35%;
+    margin-left: 10vh;
+}
+
+.videoPresentation {
+    padding: 3vh;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nosDerniereRea h3 {
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.texteInsta {
+    text-align: end;
+    width: 78%;
+}
+
+.txtlogo {
+    display: flex;
+}
+
+.logoinsta {
+    display: flex;
+    justify-content: flex-end;
+    width: 22%;
+}
+
+.instainsta{
+    margin-left: 8px;
+}
+
+/* FIN PARTIE AVEC MODULE INSTA  */
+
+/* DEBUT DU FOOTER  */
+.footer {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    
+
+}
+
+
+.footerBeta{
+    margin-top: 7rem;
+}
+
+
+
+.footer .footerOne {
+    color: white;
+}
+
+.footer .footerTwo {
+    color: grey;
+    padding-top: 17px;
+}
+
+
+/* FIN DU FOOTER /*
+
+/* Début du footerPart2 */
+
+.footerPart2 {
+    display: flex;
+    background-color: #f4f5f5;
+    padding: 50px;
+}
+
+.first50 {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+
+}
+
+.Two50 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.texteOneAll {
+    width: 45%;
+
+}
+
+.logo {
+    width: 50%;
+}
+
+.texteTwo {
+    width: 30%;
+}
+.texteTwo li{
+    margin-bottom: 5px;
+}
+.texteThreeAll {
+    width: 40%;
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Fin du footerPart2 */
+
+/* Début footerPart1 */
+
+.footerPart1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3vh;
+    background-color: #333333;
+    color: white;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    text-align: center;
+    border-style: none;
+}
+
+.card-img-top {
+    border-radius: 2vh;
+    width: 50%;
+}
+
+/* Début du footerBeta */
+.titrefooterBeta h1 {
+    text-align: center;
+    padding-bottom: 6vh;
+}
+
+.bTduCZ {
+    height: 37vh;
+}
+
+
+/* FIN DU FOOTER BETA  */
+/* PARTIE GRANDE GRILLE  */
+
+#partGrille {
+    background-color: #333333;
+    /* height: 100vh; */
+}
+
+#firstTitle {
+    color: white;
+    text-align: center;
+    padding: 1vh;
+}
+
+.big {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.moyen {
+    display: flex;
+    flex-direction: column;
+}
+
+.unTrois {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partHaut {
+    display: flex;
+}
+
+.partBas {
+    display: flex;
+}
+
+.deuxUn {
+    display: flex;
+    flex-direction: column;
+}
+
+.un {
+    height: 25vh;
+    width: 25vh;
+    background-color: red;
+    margin: 20px;
+}
+
+.deuxSeul {
+    height: 54.5vh;
+    width: 25vh;
+    background-color: yellow;
+    margin: 20px;
+}
+
+.deuxBas {
+    height: 25vh;
+    background-color: burlywood;
+    margin: 20px;
+}
+
+.petit {
+    height: 25vh;
+    width: 25vh;
+    background-color: blue;
+    margin: 20px;
+}
+
+.partMilieu {
+    height: 25vh;
+    background-color: purple;
+    margin: 20px;
+}
+
+/* FIN PARTIE GRILLE */
+/* DEBUT PARTIE PETITE GRILLE  */
+.grilleTech {
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.partGrilleTech{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.lesTech {
+    width: 500px;
+    height: 200px;
+    background: url(../images/machine.jpg);
+}
+
+/* FIN PARTIE PETITE GRILLE  */
+
+/* DEBUT PARTIE INFO DES TECHS  */
+
+.pair {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    /* font-family: Poppins-ExtraBold; */
+}
+
+.partUnPair {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: 3vh;
+    width: 40%;
+}
+
+.partDeuxPair {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: 3vh;
+    width: 60%;
+}
+
+.imgTechPair {
+    background-color: white;
+    height: 60%;
+}
+
+.impair {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.partUnImpair {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #333333;
+    font-size: 3vh;
+    width: 60%;
+}
+
+.partDeuxImpair {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #333333;
+    font-size: 3vh;
+    width: 40%;
+}
+
+.imgTechImpair {
+    background-color: #333333;
+    height: 60%;
+}
+
+/* FIN PARTIE INFO DES TECHS  */
+
+/* DÉBUT PARTIE GAMME PRODUITS */
+.troisParties {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titrePartie{
+    background-color: #333333;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0.7rem;
+}
+.cinqModule{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.card-img-top {
+    border-radius: 0;
+}
+.carte {
+    margin-right: 1rem;
+}
+.titreCard {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.descCard {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.prixCard{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.carte img {
+    width: 100%;
+    background-color: #efb74f;
+}
+/* FIN PARTIE GAMME PRODUITS */
+
+/* DÉBUT PARTIE PRODUITS  */
+.produitstext {
+    background-color: #f4f5f5;
+    margin-top: 25px;
+    margin-bottom: 40px;  
+}
+
+.produitstext .produittext h2 strong {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.produittext {
+    padding-top: 10px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    line-height: 1.9rem;
+}
+
+.allProd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ttcartes {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.titreCorporate {
+    margin-bottom: 30px;
+    height: 100%;
+
+}
+
+.cardproduits {
+    justify-content: center;
+    margin: 5px;
+    width: 15rem;
+}
+
+.cardproduits img {
+    width: 100%;
+}
+
+.ttcartes2 {
+    display: flex;
+    margin-bottom: 6rem;
+}
+
+.card-img-top {
+    border-radius: 0rem;
+}
+
+.card-title {
+    margin-top: 9px;
+    font-weight: 700;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.titreEurope {
+    margin-bottom: 30px;
+}
+
+.ttcartes2 {
+    display: flex;
+    
+    margin-bottom: 6rem;
+}
+
+.card-img-top {
+    border-radius: 0rem;
+}
+
+.card-title {
+    margin-top: 9px;
+    font-weight: 700;
+    font-size: 4vh;
+}
+
+.imageproduit {
+    height: 100%;
+}
+
+.workwear {
+    margin-bottom: 6rem;
+}
+
+.accessoire {
+    margin-bottom: 6rem;
+}
+
+.card-body .card-titleultime {
+
+    text-align: center;
+    margin-bottom: 6.5rem;
+    font-weight: 500;
+    font-size: 4vh;
+}
+
+/* FIN PARTIE PRODUITS  */
+
+/* PARTIE PRODUIT UNITAIRE  */
+
+.produitstext {
+    background-color: #f4f5f5;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.produitstext h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+.produittext {
+    padding-top: 10px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    line-height: 1.9rem;
+
+}
+
+#imgprdfin {
+    height: 100vh;
+    padding: 50px;
+}
+
+.prodfinicont {
+    display: flex;
+    width: 100%;
+}
+
+.parttext {
+    margin-top: 50px;
+    width: 60%;
+    background-color: #f4f5f5;
+    padding: 40px;
+}
+
+.parttext h2{
+font-size: 3.5rem;
+font-weight: 700;
+
+}
+
+.parttext .flex {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: green;
+    margin: 5px;
+}
+
+.ttflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ttmarquage {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ttmarquage img {
+    width: 20vh;
+}
+.marquage {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.techmarquage {
+    display: flex;
+}
+.techmarquage img {
+    width: 20vh;
+}
+.qtmarquage {
+    display: flex;
+    margin-right: 5px;
+
+
+}
+
+.quantiti {
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    background: #333333;
+    margin: 3px;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.btndevis{
+    text-align: end;
+    margin-top: 1.5rem;
+   
+    
+}
+    .btndevis a {
+        background-color: #efb74f;
+        color: black;
+        font-size: 2rem;
+        font-weight: 700;
+        width: 80%;
+        padding: 1.5rem;
+        border-style: none;
+        border-radius: 0;
+        margin-right:22vh ;
+}
+
+/* FIN PARTIE PRODUIT UNITAIRE */
+
+/* DÉBUT PAGE PRODUITS EUROPE  */
+
+.produitstextbis{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.produitstextbis .produittextbis h2 {
+    font-size: 8vh;
+    text-align: center;
+}
+
+.produitstextbis .produittextbis {
+
+font-size: xx-large;
+background-color: #efb74f;
+}
+.produittextbis {
+     padding: 2%;
+    
+}
+
+.phrase{
+    padding: 4%;
+}
+
+.titrePartiebis{
+    background-color: #efb74f;
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0.7rem;
+
+}
+
+/* FIN PAGE PRODUITS EUROPE  */
+
+/* DÉBUT PAGE PRODUITS FINIS EUROPE  */
+
+.produitstextEurope {
+    background-color: #efb74f;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    padding: 1rem;
+}
+.produitstextEurope h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+.ttmarquageEurope {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ttmarquageEurope img {
+    width: 20vh;
+}
+
+/* FIN PAGE PRODUITS FINIS EUROPE  */
+
+.marquage{
+    border: 8px solid transparent
+}
+
+.marquage .active{
+
+    border: 8px solid red
+}
+
+
+/* TEST MODALE */
+
+.modal {
+   padding-top: 3vw;
+  display: none;
+  position: fixed;
+  z-index: 30;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+   
+  margin: 50px auto;
+  border: 1px solid #999;
+  width: 60%;
+  text-align: end;
+ margin-top: 1.5rem;
+   
+}
+h2,
+p {
+  margin: 0 0 20px;
+  font-weight: 400;
+  
+}
+span {
+  
+  display: block;
+  padding: 0 0 5px;
+}
+.module form {
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 0 2px 5px #f5f5f5;
+  background: #eee;
+}
+.mod input,
+textarea {
+  width: 90%;
+  padding: 25px;
+  margin: 25px;
+  margin-bottom: 20px;
+  border: 1px solid #1c87c9;
+  outline: none;
+}
+.module span{
+    text-align: left;
+    margin-left: 4vw;
+}
+
+
+.contact-form{
+   border : 10px solid #efb74f;
+    border-radius: 10px solid #efb74f;
+    
+}
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #1c87c9;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.contact-form button:hover{
+    background: #efb74f;
+    color: #1c87c9;
+    font-weight:700 ;
+}
+
+button:hover {
+  background: #2371a0;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+button.button {
+    background-color: #efb74f;
+        color: black;
+        font-size: 2rem;
+        font-weight: 700;
+        width: 100%;
+        padding: 1.5rem;
+        border-style: none;
+        border-radius: 0;
+        margin-top: 20px;
+        cursor: pointer;
+}
+button.button:hover {
+  background: #1c87c9;
+  color: white;
+}
+
+a.close{
+    text-decoration: none;
+    padding: 3px;
+}
+
+form h2{
+    color: #1c87c9;
+}
+
+form span{
+    color: #1c87c9;
+}
